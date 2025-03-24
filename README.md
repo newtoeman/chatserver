@@ -1,4 +1,5 @@
 基于muduo网络库实现的聊天服务器，涵盖服务器ChatServer和客户端ChatClient，系统具备用户登录、注册、一对一聊天、群聊、添加好友以及处理离线消息等功能。服务器使用 Redis 进行消息的发布与订阅，利用 MySQL 存储用户数据。
+项目结构
 chatserver/
 ├── CMakeLists.txt
 ├── bin/  # 编译生成的可执行文件存放目录
